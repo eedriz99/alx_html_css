@@ -1,16 +1,36 @@
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 main {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 article {
-    flex: 2;
-    overflow-y: auto;
+  flex: 2;
+  overflow-y: auto;
 }
-aside{
-    flex: 1;
-    overflow-y: auto;
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-color: #091edd;
+  padding: 10px 20px;
+  color: rgb(202, 216, 228);
+}
+
+header a {
+  color: inherit;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #838386;
+  padding-top: 25px;
 }
